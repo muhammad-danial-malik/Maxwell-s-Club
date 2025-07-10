@@ -5,8 +5,8 @@ function SecondSection() {
     <>
       <Box
         sx={{
-          backgroundColor: "#000", // Black background
-          minHeight: "500px", // Adjust height as needed
+          backgroundColor: "#000",
+          minHeight: "500px",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
@@ -34,7 +34,7 @@ function SecondSection() {
           sx={{
             width: "90%",
             height: "450px",
-            backgroundColor: "#e0e0e0", // Placeholder background
+            backgroundColor: "#e0e0e0",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -92,7 +92,7 @@ function SecondSection() {
               sx={{
                 width: "145px",
                 height: "120px",
-                backgroundColor: "#e0e0e0", // Placeholder background
+                backgroundColor: "#e0e0e0",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -110,14 +110,14 @@ function SecondSection() {
               sx={{
                 width: "145px",
                 height: "120px",
-                backgroundColor: "#e0e0e0", // Placeholder background
+                backgroundColor: "#e0e0e0",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
               }}
             >
               <img
-                src="/bt-1.gif"
+                src="/bt-4.gif"
                 alt="Section Background"
                 style={{ width: "100%", height: "100%" }}
               />
@@ -128,14 +128,14 @@ function SecondSection() {
               sx={{
                 width: "145px",
                 height: "120px",
-                backgroundColor: "#e0e0e0", // Placeholder background
+                backgroundColor: "#e0e0e0",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
               }}
             >
               <img
-                src="/bt-2.gif"
+                src="/bt-5.gif"
                 alt="Section Background"
                 style={{ width: "100%", height: "100%" }}
               />
@@ -146,16 +146,22 @@ function SecondSection() {
               sx={{
                 width: "145px",
                 height: "120px",
-                backgroundColor: "#e0e0e0", // Placeholder background
+                backgroundColor: "#e0e0e0",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
+                overflow: "hidden",
               }}
             >
               <img
-                src="/bt-3.gif"
+                src="/bt-6.gif"
                 alt="Section Background"
-                style={{ width: "100%", height: "100%" }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  transform: "scale(1.3)",
+                  transformOrigin: "center",
+                }}
               />
             </Box>
           </Grid>
@@ -164,16 +170,22 @@ function SecondSection() {
               sx={{
                 width: "145px",
                 height: "120px",
-                backgroundColor: "#e0e0e0", // Placeholder background
+                backgroundColor: "#e0e0e0",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
+                overflow: "hidden",
               }}
             >
               <img
-                src="/bt-1.gif"
+                src="/bt-7.gif"
                 alt="Section Background"
-                style={{ width: "100%", height: "100%" }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  transform: "scale(1.2)",
+                  transformOrigin: "center",
+                }}
               />
             </Box>
           </Grid>
@@ -182,14 +194,14 @@ function SecondSection() {
               sx={{
                 width: "145px",
                 height: "120px",
-                backgroundColor: "#e0e0e0", // Placeholder background
+                backgroundColor: "#e0e0e0",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
               }}
             >
               <img
-                src="/bt-2.gif"
+                src="/bt-8.gif"
                 alt="Section Background"
                 style={{ width: "100%", height: "100%" }}
               />
