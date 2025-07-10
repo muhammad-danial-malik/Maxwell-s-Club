@@ -5,10 +5,10 @@ function ThirdSection() {
     <Box
       sx={{
         width: "100%",
-        height: "120vh",
+        height: "140vh",
         position: "relative",
         overflow: "hidden",
-        backgroundImage: "url(AI-Shopping.png)",
+        backgroundImage: "url(Community.png)",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
