@@ -1,9 +1,11 @@
-import FirstSection from "./components/FirstSection/FirstSection";
-import Footer from "./components/Footer/Footer";
-import ForthSection from "./components/ForthSection/ForthSection";
 import Navbar from "./components/Navbar/Navbar";
+import FirstSection from "./components/FirstSection/FirstSection";
 import SecondSection from "./components/SecondSection/SecondSection";
 import ThirdSection from "./components/ThirdSection/ThirdSection";
+import ForthSection from "./components/ForthSection/ForthSection";
+import FifthSection from "./components/FifthSection/FifthSection";
+import SeventhSection from "./components/SeventhSection/SeventhSection";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
-      <ForthSection />
+      <ForthSection /> 
+      <FifthSection /> 
+      <SeventhSection /> 
       <Footer />
     </>
   );
