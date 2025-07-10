@@ -3,7 +3,7 @@ import Footer from "./components/Footer/Footer";
 import ForthSection from "./components/ForthSection/ForthSection";
 import Navbar from "./components/Navbar/Navbar";
 import SecondSection from "./components/SecondSection/SecondSection";
-
+import ThirdSection from "./components/ThirdSection/ThirdSection";
 
 function App() {
   return (
@@ -11,10 +11,11 @@ function App() {
       <Navbar />
       <FirstSection />
       <SecondSection />
+      <ThirdSection />
       <ForthSection />
       <Footer />
     </>
-  )
+  );
 }
 
 export default App;
